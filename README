@@ -5,23 +5,15 @@ Please see the corresponding sections below for details.
 Dependencies
 ============
 
-  URI: <first dependency>
-  branch: <branch name>
-
-  URI: <second dependency>
-  branch: <branch name>
-
-  .
-  .
-  .
+  None
 
 Patches
 =======
 
-Please submit any patches against the meta-custom layer to the xxxx mailing list (xxxx@zzzz.org)
-and cc: the maintainer:
+Please submit any patches against the meta-custom layer to the mailing list (vedantshah@ucsb.edu)
+and cc: the maintainer: Vedant Shah
 
-Maintainer: XXX YYYYYY <xxx.yyyyyy@zzzzz.com>
+Maintainer: Vedant Shah <vedantshah@ucsb.edu>
 
 Table of Contents
 =================
@@ -32,6 +24,7 @@ Table of Contents
 
 I. Adding the meta-custom layer to your build
 =================================================
+Incorporates I2C communication protocol to read signals from temperature sensors. Connects to I2C port 5 of STM32 device.
 
 Run 'bitbake-layers add-layer meta-custom'
 
